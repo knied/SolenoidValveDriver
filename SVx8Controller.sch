@@ -121,8 +121,6 @@ GND
 Wire Wire Line
 	5500 1350 6050 1350
 Wire Wire Line
-	6050 1350 6050 1450
-Wire Wire Line
 	6050 2050 6350 2050
 Wire Wire Line
 	5950 1250 6350 1250
@@ -384,60 +382,55 @@ Text GLabel 4500 2550 0    50   Input ~ 0
 D12
 Text GLabel 4500 2650 0    50   Input ~ 0
 D13
-Text GLabel 2500 3250 2    50   Input ~ 0
+Text GLabel 2500 3350 2    50   Input ~ 0
 D0
 Text GLabel 2500 3150 2    50   Input ~ 0
 D1
-Text GLabel 2500 3550 2    50   Input ~ 0
-D2
-Text GLabel 2500 3650 2    50   Input ~ 0
-D3
-Text GLabel 2500 3750 2    50   Input ~ 0
-D4
-Text GLabel 2500 3850 2    50   Input ~ 0
-D5
 Text GLabel 2500 3950 2    50   Input ~ 0
-D6
-Text GLabel 2500 4050 2    50   Input ~ 0
-D7
+D2
 Text GLabel 2500 4150 2    50   Input ~ 0
-D8
-Text GLabel 2500 4250 2    50   Input ~ 0
-D9
+D3
 Text GLabel 2500 4350 2    50   Input ~ 0
-D10
+D4
 Text GLabel 2500 4550 2    50   Input ~ 0
-D12
-Text GLabel 2500 4450 2    50   Input ~ 0
-D11
-Text GLabel 2500 4650 2    50   Input ~ 0
-D13
+D5
+Text GLabel 2500 4750 2    50   Input ~ 0
+D6
 Text GLabel 2500 4950 2    50   Input ~ 0
-A0
-Text GLabel 2500 5050 2    50   Input ~ 0
-A1
+D7
 Text GLabel 2500 5150 2    50   Input ~ 0
-A2
-Text GLabel 2500 5250 2    50   Input ~ 0
-A3
+D8
 Text GLabel 2500 5350 2    50   Input ~ 0
-A4
-Text GLabel 2500 5450 2    50   Input ~ 0
-A5
+D9
 Text GLabel 2500 5550 2    50   Input ~ 0
+D10
+Text GLabel 2500 5950 2    50   Input ~ 0
+D12
+Text GLabel 2500 5750 2    50   Input ~ 0
+D11
+Text GLabel 2500 6050 2    50   Input ~ 0
+D13
+Text GLabel 2500 5450 2    50   Input ~ 0
+A0
+Text GLabel 2500 5250 2    50   Input ~ 0
+A1
+Text GLabel 2500 5050 2    50   Input ~ 0
+A2
+Text GLabel 2500 4850 2    50   Input ~ 0
+A3
+Text GLabel 2500 4650 2    50   Input ~ 0
+A4
+Text GLabel 2500 4450 2    50   Input ~ 0
+A5
+Text GLabel 2500 4250 2    50   Input ~ 0
 A6
-Text GLabel 2500 5650 2    50   Input ~ 0
+Text GLabel 2500 4050 2    50   Input ~ 0
 A7
-Wire Wire Line
-	5500 1450 6050 1450
-Connection ~ 6050 1450
-Wire Wire Line
-	6050 1450 6050 2050
-Text GLabel 2500 3350 2    50   Input ~ 0
+Text GLabel 2500 3650 2    50   Input ~ 0
 RESET
-Text GLabel 2500 5850 2    50   Input ~ 0
-RESET
-Text GLabel 2500 3450 2    50   Input ~ 0
+Text GLabel 2500 3550 2    50   Input ~ 0
+RESET2
+Text GLabel 2500 3750 2    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_01x30 J5
@@ -450,9 +443,9 @@ F 3 "~" H 2300 4550 50  0001 C CNN
 	1    2300 4550
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2500 5950 2    50   Input ~ 0
+Text GLabel 2500 3450 2    50   Input ~ 0
 GND
-Text GLabel 2500 6050 2    50   Input ~ 0
+Text GLabel 2500 3250 2    50   Input ~ 0
 VIN
 Text GLabel 4900 950  1    50   Input ~ 0
 VIN
@@ -460,10 +453,14 @@ Text GLabel 5100 950  1    50   Input ~ 0
 3V3
 Text GLabel 5500 1750 2    50   Input ~ 0
 AREF
-Text GLabel 2500 5750 2    50   Input ~ 0
+Text GLabel 2500 3850 2    50   Input ~ 0
 5V
-Text GLabel 2500 4750 2    50   Input ~ 0
+Text GLabel 2500 5850 2    50   Input ~ 0
 3V3
-Text GLabel 2500 4850 2    50   Input ~ 0
+Text GLabel 2500 5650 2    50   Input ~ 0
 AREF
+Wire Wire Line
+	6050 1350 6050 2050
+Text GLabel 5500 1450 2    50   Input ~ 0
+RESET2
 $EndSCHEMATC
