@@ -95,7 +95,7 @@ Text GLabel 7050 3500 1    50   Input ~ 0
 Text GLabel 7050 5700 3    50   Input ~ 0
 GND
 Wire Wire Line
-	5950 2450 5950 3900
+	5950 2450 5950 3500
 Wire Wire Line
 	5950 3900 6350 3900
 Connection ~ 5950 2450
@@ -463,4 +463,45 @@ Wire Wire Line
 	6050 1350 6050 2050
 Text GLabel 5500 1450 2    50   Input ~ 0
 RESET2
+$Comp
+L Device:R R?
+U 1 1 6782B67D
+P 5150 3500
+F 0 "R?" V 4943 3500 50  0000 C CNN
+F 1 "10K" V 5034 3500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 3500 50  0001 C CNN
+F 3 "~" H 5150 3500 50  0001 C CNN
+	1    5150 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6782CF5F
+P 5150 3800
+F 0 "R?" V 4943 3800 50  0000 C CNN
+F 1 "10K" V 5034 3800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 3800 50  0001 C CNN
+F 3 "~" H 5150 3800 50  0001 C CNN
+	1    5150 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 3800 5850 3800
+Connection ~ 5850 3800
+Wire Wire Line
+	5300 3500 5950 3500
+Connection ~ 5950 3500
+Wire Wire Line
+	5950 3500 5950 3900
+Text GLabel 4700 3900 3    50   Input ~ 0
+5V
+Wire Wire Line
+	4700 3900 4700 3800
+Wire Wire Line
+	4700 3800 5000 3800
+Wire Wire Line
+	4700 3800 4700 3500
+Wire Wire Line
+	4700 3500 5000 3500
+Connection ~ 4700 3800
 $EndSCHEMATC
